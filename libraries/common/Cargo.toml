@@ -1,0 +1,15 @@
+[package]
+name = "common"
+version.workspace = true
+edition.workspace = true
+description = "A crate that defines types used by the other crates."
+
+[dependencies]
+sbor = { workspace = true }
+scrypto = { workspace = true }
+
+[lib]
+crate-type = ["cdylib", "lib"]
+
+[lints]
+workspace = true

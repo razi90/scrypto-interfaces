@@ -1,0 +1,1 @@
+The libraries in this packages were extracted from https://github.com/radixdlt/Ignition/tree/main/libraries and migrated to Scrypto 1.2.0.
